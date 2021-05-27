@@ -1,0 +1,76 @@
+html {
+    font-size: 62.5%;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background: #d9a7c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+    display: flex;
+    border: 1px solid gray;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.titlecontainer {
+    height: 15%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 3rem;
+}
+
+.gridcontainer {
+    height: 70%;
+    width: 50%;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 10px;  
+    
+    
+
+    box-shadow: 9px 11px 19px 3px rgba(3,2,2,0.29);
+    -webkit-box-shadow: 9px 11px 19px 3px rgba(3,2,2,0.29);
+    -moz-box-shadow: 9px 11px 19px 3px rgba(3,2,2,0.29);
+}
+
+.buttonscontainer {
+    height: 15%;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-top: 2%;
+}
+
+.erasebutton, .changebutton {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 2rem;
+    border: none;
+    background:none;
+    text-shadow: 2px 2px #afa2a2;
+}
+
+.erasebutton:hover, .changebutton:hover {
+    font-weight: 900;
+    font-size: 2.1rem;
+}
+
+.onhover{
+    background-color: bisque;
+}
